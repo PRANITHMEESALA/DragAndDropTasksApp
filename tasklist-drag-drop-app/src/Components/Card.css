@@ -1,0 +1,83 @@
+.card {
+    height: 400px;
+    width: 200px;
+    position: relative;
+
+}
+
+.cardHeader {
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 0px 0px black 0.5;
+}
+
+.taskPopup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.addTask {
+    position: absolute;
+    bottom: 17px;
+    right: 19px;
+}
+.hidCardContainer{
+
+    width: 50px;
+    
+    height: 400px;
+    
+    display: flex;
+    
+    box-shadow: 1px 1px 5px 2px rgb(128, 120, 120);
+    
+    background-color: lightblue;
+    
+    color: black;
+    
+    position: relative;
+    
+    display: flex;
+    
+    justify-content: space-between;
+    
+    flex-direction: column;
+    
+    }
+    
+    .hidCardContainer>p{
+    
+    position: absolute;
+    
+    transform: rotate(90deg);
+    
+    transform-origin: left top;
+    
+    white-space: nowrap;
+    
+    left: 33px;
+    
+    }
+    
+    .rightArrow{
+        margin-top: 500px;
+    cursor: pointers;
+    position: absolute;
+    bottom: 15px;
+    right: 19px;   
+    } 
+    .leftArrow{
+        margin-left: 50px;
+        cursor: pointer
+    }
+    
+    

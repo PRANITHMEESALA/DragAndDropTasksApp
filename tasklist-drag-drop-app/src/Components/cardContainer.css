@@ -1,0 +1,70 @@
+.cardContainer {
+    box-sizing: border-box;
+    padding: 10px;
+    display: inline-block;
+    top: 43px;
+    position: absolute;
+    left: 0;
+}
+
+.cardList {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cardList>div {
+    margin-right: 10px;
+}
+
+.addButton {
+    position: absolute;
+    bottom: 90px;
+    right: 209px;
+    display: block;
+    background-color: red;
+}
+
+.statusPopupContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
+}
+
+.statusPopuOverLay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+
+}
+
+.statusPopup {
+    display: block;
+    box-shadow: 1px 1px 5px 2px rgb(128, 120, 120);
+    z-index: 10000;
+    width: 200px;
+    height: 300px;
+    background-color: white;
+
+}
+
+.statusPopup>div {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.statusPopup>div> {
+    margin-bottom: 5px;
+}
+select{
+    margin-bottom: 10px;
+}

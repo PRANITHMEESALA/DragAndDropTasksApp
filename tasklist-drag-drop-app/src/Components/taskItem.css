@@ -1,0 +1,13 @@
+.taskItem {
+    display: flex;
+    box-shadow: 1px 1px 1px 0px black;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: white;
+    border-left: 6px red solid;
+}
+
+.taskItemContainer {
+    margin-bottom: 10px;
+
+}
